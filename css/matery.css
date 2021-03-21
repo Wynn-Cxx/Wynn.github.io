@@ -551,20 +551,20 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: none;
+    -webkit-animation:none;
     animation: none;
 }
 
 .bg-cover:before,
 .bg-cover:after {
-    position: unset;
-    z-index: unset;
-    width: unset;
-    height: unset;
+    position:absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
     display: block;
-    left: unset;
-    top: unset;
-    content: unset;
+    left: 0;
+    top: 0;
+    content: "";
 }
 
 .bg-cover .container {
